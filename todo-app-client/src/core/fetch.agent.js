@@ -15,7 +15,6 @@ const BASE_FETCH = async (query, param) => {
         body: JSON.stringify({ query })
     });
     const a =  await res.json();
-    console.log(asd);
     return a.data[param];
 }
 
