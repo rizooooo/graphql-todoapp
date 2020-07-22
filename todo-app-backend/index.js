@@ -54,4 +54,4 @@ const resolvers = {
 }
 
 const server = new GraphQLServer({ typeDefs, resolvers })
-server.start(() => console.log('YEZ SIR'));
+server.start(() => console.log('YEZ SIR PORT 4000'));
